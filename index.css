@@ -1,5 +1,4 @@
 /* Utility */
-
 .gone {
     display: none !important;
 }
@@ -8,8 +7,11 @@
     transform: scaleX(-1);
 }
 
-/* Sidebar */
 
+
+
+
+/* Sidebar */
 .glyph-arrow {
     position: relative;
     right: 28px;
@@ -23,7 +25,12 @@
     transform: scaleX(-1);
 }
 
-.sidebar-cerrar {
+a.glyph-arrow:hover,
+a.glyph-arrow:focus {
+    color: #000;
+}
+
+/*.sidebar-cerrar {
     float: right;
     color: #999999;
     background-color: transparent;
@@ -33,17 +40,20 @@
 }
 .sidebar-cerrar:hover {
     color: #fff;
-}
+}*/
+
+
+
+
 
 /* Top bar */
-
-.top-bar {
+/*.top-bar {
     position: relative !important;
     display: block !important;
-}
+}*/
 
 /* Navbar */
-.navbar-toggle {
+/*.navbar-toggle {
     float: left;
 }
 .icon-bar {
@@ -71,8 +81,4 @@
 }
 .collapse.in{
     display: block !important;
-}
-
-.jumbotron {
-    
-}
+}*/
