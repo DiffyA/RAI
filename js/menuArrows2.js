@@ -6,8 +6,14 @@ $(document).ready(function(){
     var stringLeft = "glyphicon-chevron-left";
     var stringRight = "glyphicon-chevron-right";
     
-    $(arrow).append(arrowRight);
-    $(arrow).children("span").remove();
+/*    $(arrow).append(arrowRight);
+    $(arrow).children("span").remove();*/
+    
+    $(arrow).find("img").attr("src", "glyphicon/glyphicon-chevron-right.png")
+    
+    console.log($(arrow).find("img").attr(""));
+    
+
     
     console.log("Width:" + $(window).width());
     
