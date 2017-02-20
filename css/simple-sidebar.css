@@ -4,10 +4,6 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
- body {
-    overfdlow-x: hidden;
- }
-
 /* Toggle Styles */
 
 #wrapper {
@@ -29,7 +25,6 @@
     width: 0;
     height: 100%;
     margin-right: -250px;
-    overflow-yd: auto;
     background: #000;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
