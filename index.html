@@ -15,7 +15,7 @@
     <!-- CSS -->
     <link href="css/simple-sidebar.css" rel="stylesheet">
     <link href="css/index.css" type="text/css" rel="stylesheet" >
-    
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -24,17 +24,37 @@
 </head>
 
 <body>
+    
+    <!-- Facebook -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 
+    <div class="fb-like"
+      data-href="https://www.informacion-crowdsourcing.com"
+      data-width="300"
+      data-layout="button_count"
+      data-action="like"
+      data-show-faces="false"
+      data-share="true">
+    </div>
+    <!-- End Facebook -->   
+    
     <div id="wrapper">
 
         <!-- Sidebar -->
         <div id="sidebar-wrapper">
-            
+
             <!-- Add glyphicon programatically -->
-            <a href="#" class="glyph-arrow"></a>     
-            
+            <a href="#" class="glyph-arrow"></a>
+
             <ul class="sidebar-nav">
-                
+
                <!--<a><button class="menu-toggle sidebar-cerrar" type="button">&times;</button> </a>-->
                 <li class="sidebar-brand">
                     <a class="sidebar-inicio active" href="index.html">Inicio</a>
@@ -51,22 +71,22 @@
             </ul>
         </div>
         <!-- /#sidebar-wrapper -->
-        
+
         <!-- Navbar -->
 <!--        <span class="glyphicon glyphicon-chevron-left"></span>
         -->
-        
+
         <!--<div id="page-content-wrapper">
             <div class="container-fluid navbar">
                 <div class="top-bar">
                     <div class="div-absolute">
                         <div class="div-fixed">
-                            
+
                         </div>
                     </div>
-                   
+
                 </div>
-                
+
                 <div class="nav-wrapper">
                     <div class="nav-parent">
                         <button type="button" class="bar-button menu-toggle navbar-toggle collapsed visible-xs visible-sm visible-md visible-lg" data-toggle="collapse" data-target="#nav-open">
@@ -74,50 +94,54 @@
                                 <span class="icon-bar second-bar"></span>
                                 <span class="icon-bar third-bar"></span>
                         </button>
-                        
-                        
+
+
                 </div>
                 </div>
             </div>-->
-        
+
         <!-- Page Content -->
         <div class="container-fluid">
-            
+
             <div class="jumbotron text-center">
                 <h1>Recuperación y Acceso a la Información</h1>
                 <h2>Crowdsourcing</h2>
                 <br/>
                 <h4>Una práctica de la asignatura Recuperación y Acceso a la Información de la UC3M</h4>
             </div>
-            
+
             <h1>¿Qué es el crowdsourcing?</h1>
             <p><strong>Crowdsourcing</strong> es el proceso de empezar o realizar algo, habitualmente de forma online, gracias a un grupo de personas. Es una combinación de las palabras “crowd” (grupo de gente) y “outsourcing” (externalización). La idea es repartir el trabajo y externalizarlo a gran grupo de trabajadores.</p>
-            
-            <p>Un ejemplo conocido es Wikipedia. La Wikipedia, en lugar de crear una enciclopedia por sí mismos, contratando a escritores y editores, han dado la oportunidad de “crear” la información a una multitud de gente. El resultado ha sido la mayor y mejor enciclopedia que existe actualmente.</p>
-            
-            <p>El principio básico del <strong>crowdsourcing</strong> es que muchas cabezas piensan más que una. Al contar con una gran multitud de personas para obtener ideas, habilidades o colaboraciones, la calidad del contenido y las ideas surgidas serán mejores.</p>
-            
-            <h1>El Crowdsourcing y su rol en la Recuperación y Acceso a la Información</h1>
-            
-            <p>Una característica del <strong>crowdsourcing</strong> que hace que este se destaque en cuanto a la <strong>recuperación y acceso a la información</strong>, es que generalmente se emplea para realizar tareas que requieren inteligencia y esfuerzo humano. En otras palabras, son tareas que difícilmente se pueden automatizar, o requerirían de un gran esfuerzo computacional para una ganancia muy pequeña, en comparación al ratio de esfuerzo invertido y ganancia que se puede obtener al usar a personas como principal entrada a los motores del <strong>crowdsourcing.</strong></p>
-            
-            <p>Analizaremos algunas herramientas, como lo son Mechanical Turk de Amazon, CrowdFlower y Fiverr, que son ejemplos críticos para demostrar la importancia y alcance que tiene el <strong>crowdsourcing</strong> en el ámbito de la <strong>recuperación y acceso a la información.</strong></p>
-            
-            <!--<a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>-->
 
+            <p>Un ejemplo conocido es Wikipedia. La Wikipedia, en lugar de crear una enciclopedia por sí mismos, contratando a escritores y editores, han dado la oportunidad de “crear” la información a una multitud de gente. El resultado ha sido la mayor y mejor enciclopedia que existe actualmente.</p>
+
+            <p>El principio básico del <strong>crowdsourcing</strong> es que muchas cabezas piensan más que una. Al contar con una gran multitud de personas para obtener ideas, habilidades o colaboraciones, la calidad del contenido y las ideas surgidas serán mejores.</p>
+
+            <h1>El Crowdsourcing y su rol en la Recuperación y Acceso a la Información</h1>
+
+            <p>Una característica del <strong>crowdsourcing</strong> que hace que este se destaque en cuanto a la <strong>recuperación y acceso a la información</strong>, es que generalmente se emplea para realizar tareas que requieren inteligencia y esfuerzo humano. En otras palabras, son tareas que difícilmente se pueden automatizar, o requerirían de un gran esfuerzo computacional para una ganancia muy pequeña, en comparación al ratio de esfuerzo invertido y ganancia que se puede obtener al usar a personas como principal entrada a los motores del <strong>crowdsourcing.</strong></p>
+
+            <p>Analizaremos algunas herramientas, como lo son Mechanical Turk de Amazon, CrowdFlower y Fiverr, que son ejemplos críticos para demostrar la importancia y alcance que tiene el <strong>crowdsourcing</strong> en el ámbito de la <strong>recuperación y acceso a la información.</strong></p>
+
+       
+        <!-- /#page-content-wrapper -->
+            
+
+
+            <!--<a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>-->  
             
         </div>
-        <!-- /#page-content-wrapper -->
+        <!-- End Page Content -->
 
     </div>
-    <!-- /#wrapper -->
+    <!-- End wrapper -->
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
     <!-- Compiled and minified JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-    
+
     <!-- Scripts -->
     <script src="js/menuArrows2.js"></script>
 
