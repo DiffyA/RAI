@@ -6,17 +6,6 @@ $(document).ready(function(){
     var stringLeft = "glyphicon-chevron-left";
     var stringRight = "glyphicon-chevron-right";
     
-/*    $(arrow).append(arrowRight);
-    $(arrow).children("span").remove();*/
-    
-    $(arrow).find("img").attr("src", "glyphicon/glyphicon-chevron-right.png")
-    
-    console.log($(arrow).find("img").attr(""));
-    
-
-    
-    console.log("Width:" + $(window).width());
-    
     // Check width on load
     if (width < 768 ) {
         $(arrow).append(arrowLeft);
@@ -28,18 +17,15 @@ $(document).ready(function(){
     // Update on resize
     $(window).resize(function() {
         width = $(window).width();
-        console.log("Width:" + $(window).width());
         
         // Check on width
         if ((width < 768) && (arrow.find("span").attr("class").split(" ")[1] == stringRight)) {
             $(arrow).children("span").remove();
             $(arrow).append(arrowLeft);
-            console.log("Hey!");
         }
         else if ((width >= 768) && (arrow.find("span").attr("class").split(" ")[1] == stringLeft)) {
             $(arrow).children("span").remove();
             $(arrow).append(arrowRight);
-            console.log("Ho!");
         }
     })
     
@@ -57,16 +43,6 @@ $(document).ready(function(){
             $(arrow).children("span").remove();
             $(arrow).append(arrowRight);
         }
-        
-        
-        console.log($("#wrapper").attr("class"));
     });    
     
-    // On Sidebar close
-/*    $(".sidebar-cerrar").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-        
-        console.log($("#wrapper").attr("class"));
-    }); */   
 })
