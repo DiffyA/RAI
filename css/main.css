@@ -28,7 +28,15 @@ p.subtitle-2 {
 .mirror {
     transform: scaleX(-1);
 }
-
+.img-responsive {
+    margin: 0 auto;
+}
+div[class^="col"], .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
 
 
@@ -37,6 +45,7 @@ p.subtitle-2 {
 .fb-like {
     padding: 30px;
     position: fixed !important;
+    z-index: 9000;
 }
 
 
