@@ -18,3 +18,6 @@ Feb. 20, 2017 - Page registered on Google Search Console. <br />
 Feb. 25, 2017 - Page ranks first in Google with search terms "recuperacion acceso informacion crowdsourcing". <br />
 Feb. 25, 2017 - Submitted sitemap to Google Search Console. <br />
 Feb. 26, 2017 - Sitemap processed by Google Search Console. <br />
+Mar. 01, 2017 - Requested indexing on Bing. <br />
+Mar. 01, 2017 - Submitted sitemap to Bing. <br />
+Mar. 02, 2017 - Requested indexing on Yandex. <br />
