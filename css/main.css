@@ -21,6 +21,9 @@ p.subtitle-2 {
 
 
 /* Utility */
+.space-md {
+    height: 100px;
+}
 .gone {
     display: none !important;
 }
@@ -37,6 +40,18 @@ div[class^="col"], .row {
     justify-content: center;
     flex-wrap: wrap;
 }
+.thumbnail {
+    display: flex;
+    align-items: center;
+    height: 200px;
+    width: 400px;
+    z-index: 9000;
+}   
+.thumbnail-img {
+    max-height: 180px;
+    max-width: 380px;
+}
+
 
 
 
